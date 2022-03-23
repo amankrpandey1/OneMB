@@ -1,2 +1,2 @@
-# Flutter-Apps
-This repository contains some basic app projects which are created using Flutter framework.
+# OneMB - We automate automations
+This repository the source code and all the necessary docs related to OneMB.
