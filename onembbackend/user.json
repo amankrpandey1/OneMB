@@ -1,0 +1,24 @@
+{   "user":{
+        "username":"aman",
+        "password":"Aman", 
+        "firstname":"Aman",
+        "lastname":"Pandey",
+        "dob":"03/01/1998",
+        "email":"aman.pandey@gmail.com",
+        "company":"TCS",
+        "designation":"Developer",
+        "areaofexp":"ML"
+        },
+    "admin":{
+        "username":"admin",
+        "password":"Admin", 
+        "firstname":"admin",
+        "lastname":"admin",
+        "dob":"01/01/2000",
+        "email":"admin.admin@gmail.com",
+        "company":"admin",
+        "designation":"admin",
+        "areaofexp":"network",
+        "admin":true
+        }
+}
