@@ -9,7 +9,8 @@ var experimentSchema = new Schema({
         default:'exp1',
     },
     status:{
-        type: mongoose.Schema.ObjectId,
+        type: Number,
+        default:0
     }
 },
     {timestamps:true}

@@ -12,6 +12,7 @@ var usersRouter = require('./routes/users');
 var projectRouter = require('./routes/projectRouter');
 var dataRouter = require('./routes/dataRouter')
 var authenticate = require('./authenticate');
+var runExperiment = require('./routes/run-experiment');
 var config = require("./config");
 
 // setting up mongo connecttion
@@ -42,6 +43,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/projects',projectRouter);
 app.use('/data',dataRouter);
+// app.use('/projects/:prId/experiments/:experimentId/run-experiment',runExperiment);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
