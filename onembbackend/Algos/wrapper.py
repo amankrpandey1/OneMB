@@ -40,4 +40,4 @@ def wrapper(json_input_file = {}):
 if __name__=="__main__":
     temp = json.dumps(sys.argv)
     json_input_file = json.loads(json.loads(temp)[-1])
-    print(str(wrapper(json_input_file)))   
+    print(json.dumps(adaboost_regression_outer(json_input_file)))  

@@ -184,10 +184,3 @@ def adaboost_regression_outer(json_input_file = {} #json input path
         d['return_code'] = 'ERROR_01'
         d['msg'] = e         
         return d
-    
-
-
-temp = json.dumps(sys.argv)
-json_input_file = json.loads(json.loads(temp)[-1])
-# print(str(json_input_file))
-print(json.dumps(adaboost_regression_outer(json_input_file)))

@@ -12,7 +12,6 @@ var usersRouter = require('./routes/users');
 var projectRouter = require('./routes/projectRouter');
 var dataRouter = require('./routes/dataRouter')
 var authenticate = require('./authenticate');
-var runExperiment = require('./routes/run-experiment');
 var config = require("./config");
 
 // setting up mongo connecttion

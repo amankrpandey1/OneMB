@@ -272,7 +272,7 @@ projectRouter.route('/:prId/experiments/:experimentId/run-experiment')
         exitCode: 1
     };
 
-    PythonShell.run('adaboost_regression_outer.py', options, function (err, result)
+    PythonShell.run('wrapper.py', options, function (err, result)
     {
         if (err) throw err;
         // result is an array consisting of messages collected
